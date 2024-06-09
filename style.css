@@ -1,0 +1,110 @@
+/*titulo*/
+head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+/*subtitulo*/
+body {
+    background-color: rgb(0, 170, 0);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*texto informativo*/
+header {
+    background-color: rgb(0, 140, 0);
+    color: aquamarine;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: aquamarine;
+    text-decoration: none;
+}
+nav ul li a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+main {
+    background-color: rgb(0, 170, 0);
+    padding: 20px;
+}
+/*imagenes*/
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/*img logo de java*/
+img.logo {
+    width: 350px;
+    height: auto;
+}
+/*img codigo fuente de javascript*/
+img.SourceCode {
+    width: 400px;
+    height: auto;
+}
+/*img nombres delenguajes de programacion*/
+img.ProgrammingLanguages {
+    width: 350px;
+    height: auto;
+}
+
+img.process1 {
+    width: 300px;
+    height: auto;
+}
+
+img.process2 {
+    width: 300px;
+    height: auto;
+}
+
+img.process3 {
+    width: 350px;
+    height: auto;
+}
+
+img.process4 {
+    width: 300px;
+    height: auto;
+}
+
+img.process5 {
+    width: 300px;
+    height: auto;
+}
+
+img.process6 {
+    width: 300px;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(0, 140, 0);
+    color: aquamarine;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
